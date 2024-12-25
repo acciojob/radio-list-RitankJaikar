@@ -9,6 +9,6 @@ input[disabled] {
   opacity: 0.5; /* Slightly fade the disabled button */
 }
 
-label:nth-child(even) {
+input:nth-child(even), label:nth-child(even) {
 	color: red;
 }
