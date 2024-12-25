@@ -2,20 +2,9 @@
 .input:nth-child(even) {
   color: red;
 }
-
-label:nth-child(even) .input {
-  color: red; /* Change the radio button color to red */
+/*
+input[type="radio"]:disabled + label {
+	cursor: none;
+	opacity: 0.5;
 }
-
-label .input:nth-child(even) {
-  color: red;
-}
-
-label:nth-child(even) {
-  color: red;
-}
-
-/* Disabled radio button (Option 2) */
-input[disabled] {
-  opacity: 0.5; /* Faded disabled button */
-}
+*/
