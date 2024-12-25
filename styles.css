@@ -1,1 +1,14 @@
 /*  your css code here. If applicable */
+/* Styling for even position radio buttons (Option 2, 4, 6) */
+.input {
+  accent-color: red; /* Sets the color of the radio button to red */
+}
+
+/* Disabled radio button (Option 2) */
+input[disabled] {
+  opacity: 0.5; /* Slightly fade the disabled button */
+}
+
+label:nth-child(even) {
+	color: red;
+}
