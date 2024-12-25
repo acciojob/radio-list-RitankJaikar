@@ -1,3 +1,9 @@
-.input:nth-child(even) {
-	color: color", "rgb(255, 0, 0);
+/* Target even-numbered input elements within label elements */
+label:nth-child(even) input, .input:nth-child(even), label:nth-child(even) {
+  color: red; /* Change the radio button color to red */
+}
+
+/* Disabled radio button (Option 2) */
+input[disabled] {
+  opacity: 0.5; /* Faded disabled button */
 }
