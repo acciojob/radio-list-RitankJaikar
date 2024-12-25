@@ -1,6 +1,18 @@
 /* Target even-numbered input elements within label elements */
-label:nth-child(even) input, .input:nth-child(even), label:nth-child(even) {
+.input:nth-child(even) {
+  color: red;
+}
+
+label:nth-child(even) .input {
   color: red; /* Change the radio button color to red */
+}
+
+label .input:nth-child(even) {
+  color: red;
+}
+
+label:nth-child(even) {
+  color: red;
 }
 
 /* Disabled radio button (Option 2) */
